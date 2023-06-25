@@ -1,15 +1,19 @@
-# Loops through all videos in a folder and generates 3 optimised gifs (5 sec) from them.
-# Clip timestamps is determined by user input
+# Description: 
+    # This script is used to generate 3 optimised gifs (5 sec) from a video.
+    # Clip timestamps is determined by user input
+
+# Requirements:
+    # Make sure you have ffmpeg and gifsicle installed
 
 # To Run: 
-# 1. Ensure videos are in the same folder as this script
-# 2. bash timestamp-input-generate-3-gifs
+    # 1. Ensure videos are in the same folder as this script
+    # 2. bash timestamp-input-generate-3-gifs
 
 # To-do:
-# - Add option to generate n clip(s) instead of 3
-# - Add option to select length of clip (not just 5 seconds)
-# - Add option to generate clips from a single video instead of all videos in a folder
-# - Add error handling for user input (not a number, not valid timestamp)
+    # - Add option to generate n clip(s) instead of 3
+    # - Add option to select length of clip (not just 5 seconds)
+    # - Add option to generate clips from a single video instead of all videos in a folder
+    # - Add error handling for user input (not a number, not valid timestamp)
 
 # ====================================================================================================================
 # ============================= Normalise Names
